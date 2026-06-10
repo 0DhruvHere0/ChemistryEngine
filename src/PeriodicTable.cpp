@@ -121,6 +121,20 @@ namespace ChemEngine
         35.453,
         7
     );
+    static const Element argon(
+        "Ar",
+        "Argon",
+        18,
+        39.948,
+        8
+    );
+    static const Element potassium(
+        "K",
+        "Potassium",
+        19,
+        39.098,
+        1
+    );
     const Element& PeriodicTable::get(
         const std::string& symbol
     )
