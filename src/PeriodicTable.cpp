@@ -135,6 +135,13 @@ namespace ChemEngine
         39.098,
         1
     );
+    static const Element calcium(
+        "Ca",
+        "Calcium",
+        20,
+        40.078,
+        2
+    );
     const Element& PeriodicTable::get(
         const std::string& symbol
     )
