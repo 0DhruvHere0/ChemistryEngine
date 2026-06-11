@@ -142,6 +142,69 @@ namespace ChemEngine
         40.078,
         2
     );
+    static const Element scandium(
+        "Sc",
+        "Scandium",
+        21,
+        44.956,
+        3
+    );
+    static const Element titanium(
+        "Ti",
+        "Titanium",
+        22,
+        47.867,
+        4
+    );
+    static const Element vanadium(
+        "V",
+        "Vanadium",
+        23,
+        50.942,
+        5
+    );
+    static const Element chromium(
+        "Cr",
+        "Chromium",
+        24,
+        51.996,
+        6
+    );
+    static const Element manganese(
+        "Mn",
+        "Manganese",
+        25,
+        54.938,
+        7
+    );
+    static const Element iron(
+        "Fe",
+        "Iron",
+        26,
+        55.845,
+        8
+    );
+    static const Element cobalt(
+        "Co",
+        "Cobalt",
+        27,
+        58.933,
+        9
+    );
+    static const Element nickel(
+        "Ni",
+        "Nickel",
+        28,
+        58.693,
+        10
+    );
+    static const Element copepr(
+        "Cu",
+        "Copper",
+        29,
+        63.546,
+        1
+    );
     const Element& PeriodicTable::get(
         const std::string& symbol
     )
