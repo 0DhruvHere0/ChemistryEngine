@@ -219,6 +219,13 @@ namespace ChemEngine
         69.723,
         3
     );
+    static const Element germanium(
+        "Ge",
+        "Germanium",
+        32,
+        72.640,
+        4
+    );
     const Element& PeriodicTable::get(
         const std::string& symbol
     )
