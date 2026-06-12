@@ -198,12 +198,19 @@ namespace ChemEngine
         58.693,
         10
     );
-    static const Element copepr(
+    static const Element copper(
         "Cu",
         "Copper",
         29,
         63.546,
         1
+    );
+    static const Element zinc(
+        "Zn",
+        "Zinc",
+        30,
+        65.380,
+        2
     );
     const Element& PeriodicTable::get(
         const std::string& symbol
