@@ -212,6 +212,13 @@ namespace ChemEngine
         65.380,
         2
     );
+    static const Element gallium(
+        "Ga",
+        "Gallium",
+        31,
+        69.723,
+        3
+    );
     const Element& PeriodicTable::get(
         const std::string& symbol
     )
