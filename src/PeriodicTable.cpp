@@ -76,7 +76,7 @@ namespace ChemEngine
         "Na",
         "Sodium",
         11,
-        22.989,
+        22.98976928,
         1
     );
     static const Element magnesium(
@@ -90,21 +90,21 @@ namespace ChemEngine
         "Al",
         "Aluminium",
         13,
-        26.982,
+        26.9815386,
         3
     );
     static const Element silicon(
         "Si",
         "Silicon",
         14,
-        28.086,
+        28.0855,
         4
     );
     static const Element phosphorus(
         "P",
         "Phosphorus",
         15,
-        30.974,
+        30.973762,
         5
     );
     static const Element sulphur(
@@ -132,7 +132,7 @@ namespace ChemEngine
         "K",
         "Potassium",
         19,
-        39.098,
+        39.0983,
         1
     );
     static const Element calcium(
@@ -146,7 +146,7 @@ namespace ChemEngine
         "Sc",
         "Scandium",
         21,
-        44.956,
+        44.955912,
         2
     );
     static const Element titanium(
@@ -160,21 +160,21 @@ namespace ChemEngine
         "V",
         "Vanadium",
         23,
-        50.942,
+        50.9415,
         2
     );
     static const Element chromium(
         "Cr",
         "Chromium",
         24,
-        51.996,
+        51.9961,
         1
     );
     static const Element manganese(
         "Mn",
         "Manganese",
         25,
-        54.938,
+        54.938044,
         2
     );
     static const Element iron(
@@ -188,14 +188,14 @@ namespace ChemEngine
         "Co",
         "Cobalt",
         27,
-        58.933,
+        58.933195,
         2
     );
     static const Element nickel(
         "Ni",
         "Nickel",
         28,
-        58.693,
+        58.6934,
         2
     );
     static const Element copper(
@@ -230,7 +230,7 @@ namespace ChemEngine
         "As",
         "Arsenic",
         33,
-        74.922,
+        74.9216,
         5
     );
     static const Element selenium(
@@ -258,7 +258,7 @@ namespace ChemEngine
         "Rb",
         "Rubidium",
         37,
-        85.468,
+        85.4678,
         1
     );
     static const Element strontium(
@@ -272,7 +272,7 @@ namespace ChemEngine
         "Y",
         "Yttrium",
         39,
-        88.906,
+        88.90585,
         2
     );
     static const Element zirconium(
@@ -286,7 +286,7 @@ namespace ChemEngine
         "Nb",
         "Niobium",
         41,
-        92.906,
+        92.90638,
         1
     );
     static const Element molybdenum(
@@ -300,7 +300,7 @@ namespace ChemEngine
         "Tc",
         "Technetium",
         43,
-        98,
+        98.00,
         2
     );
     static const Element ruthenium(
@@ -314,7 +314,7 @@ namespace ChemEngine
         "Rh",
         "Rhodium",
         45,
-        102.91,
+        102.9055,
         1
     );
     static const Element palladium(
@@ -328,21 +328,21 @@ namespace ChemEngine
         "Ag",
         "Silver",
         47,
-        107.87,
+        107.8682,
         1
     );
     static const Element cadmium(
         "Cd",
         "Cadmium",
         48,
-        112.41,
+        112.411,
         2
     );
     static const Element indium(
         "In",
         "Indium",
         49,
-        114.82,
+        114.818,
         3
     );
     static const Element tin(
@@ -370,31 +370,58 @@ namespace ChemEngine
         "I",
         "Iodine",
         53,
-        126.90,
+        126.90447,
         7
     );
     static const Element xenon(
         "Xe",
         "Xenon",
         54,
-        131.29,
+        131.293,
         8
     );
     static const Element caesium(
         "Cs",
         "Caesium",
         55,
-        132.91,
+        132.9054519,
         1
     );
     static const Element barium(
         "Ba",
         "Barium",
         56,
-        137.33,
+        137.327,
+        2
+    ); 
+    static const Element lanthannum(
+        "La",
+        "Lanthanum",
+        57,
+        138.90547,
         2
     );
- 
+    static const Element cerium(
+        "Ce",
+        "Cerium",
+        58,
+        140.116,
+        2
+    );
+    static const Element praseodymium(
+        "Pr",
+        "Praseodymium",
+        59,
+        140.90765,
+        2
+    );
+    static const Element neodymium(
+        "Nd",
+        "Neodymium",
+        60,
+        144.242,
+        2
+    );
     const Element& PeriodicTable::get(
         const std::string& symbol
     )
