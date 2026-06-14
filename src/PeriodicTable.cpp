@@ -478,6 +478,356 @@ namespace ChemEngine
         167.259,
         2
     );
+    static const Element thulium(
+        "Tm",
+        "Thulium",
+        69,
+        168.93421,
+        2
+    );
+    static const Element ytterbium(
+        "Yb",
+        "Ytterbium",
+        70,
+        173.04,
+        2
+    );
+    static const Element lutetium(
+        "Lu",
+        "Lutetium",
+        71,
+        174.967,
+        2
+    );
+    static const Element hafnium(
+        "Hf",
+        "Hafnium",
+        72,
+        178.49,
+        2
+    );
+    static const Element tantalum(
+        "Ta",
+        "Tantalum",
+        73,
+        180.94788,
+        2
+    );
+    static const Element tungsten(
+        "W",
+        "Tungsten",
+        74,
+        183.84,
+        2
+    );
+    static const Element rhenium(
+        "Re",
+        "Rhenium",
+        75,
+        186.207,
+        2
+    );
+    static const Element osmium(
+        "Os",
+        "Osmium",
+        76,
+        190.23,
+        2
+    );
+    static const Element iridium(
+        "Ir",
+        "Iridium",
+        77,
+        192.217,
+        2
+    );
+    static const Element platinum(
+        "Pt",
+        "Platinum",
+        78,
+        195.084,
+        1
+    );
+    static const Element gold(
+        "Au",
+        "Gold",
+        79,
+        196.966569,
+        1
+    );
+    static const Element mercury(
+        "Hg",
+        "Mercury",
+        80,
+        200.59,
+        2
+    );
+    static const Element thallium(
+        "Tl",
+        "Thallium",
+        81,
+        204.3833
+        3
+    );
+    static const Element lead(
+        "Pb",
+        "Lead",
+        82,
+        207.2,
+        4
+    );
+    static const Element bismuth(
+        "Bi",
+        "Bismuth",
+        83,
+        208.9804,
+        5
+    );
+    static const Element polonium(
+        "Po",
+        "Polonium",
+        84,
+        209,
+        6
+    );
+    static const Element astatine(
+        "At",
+        "Astatine",
+        85,
+        210,
+        7
+    );
+    static const Element radon(
+        "Rn",
+        "Radon",
+        86,
+        222,
+        8
+    );
+    static const Element francium(
+        "Fr",
+        "Francium",
+        87,
+        223,
+        1
+    );
+    static const Element radium(
+        "Ra",
+        "Radium",
+        88,
+        226,
+        2
+    );
+    static const Element actinium(
+        "Ac",
+        "Actinium",
+        89,
+        227,
+        2
+    );
+    static const Element thorium(
+        "Th",
+        "Thorium",
+        90,
+        232.03806,
+        2
+    );
+    static const Element protactinum(
+        "Pa",
+        "Protactinum",
+        91,
+        231.03588,
+        2
+    );
+    static const Element uranium(
+        "U",
+        "Uranium",
+        92,
+        238.02891,
+        2
+    );
+    static const Element neptunium(
+        "Np",
+        "Neptunium",
+        93,
+        237.0482,
+        2
+    );
+    static const Element plutonium(
+        "Pu",
+        "Plutonoium",
+        94,
+        244,
+        2
+    );
+    static const Element americium(
+        "Am",
+        "Americium",
+        95,
+        243,
+        2
+    );
+    static const Element curium(
+        "Cm",
+        "Curium",
+        96,
+        247.07035,
+        2
+    );
+    static const Element berkelium(
+        "Bk",
+        "Berkelium",
+        97,
+        247.07031,
+        2
+    );
+    static const Element californium(
+        "Cf",
+        "Californium",
+        98,
+        251,
+        2
+    );
+    static const Element einsteinium(
+        "Es",
+        "Einsteinium",
+        99,
+        252,
+        2
+    );
+    static const Element fermium(
+        "Fm",
+        "Fermium",
+        100,
+        257,
+        2
+    );
+    static const Element mendelevium(
+        "Md",
+        "Mendelevium",
+        101,
+        258,
+        2
+    );
+    static const Element nobelium(
+        "No",
+        "Nobelium",
+        102,
+        259,
+        2
+    );
+    static const Element lawrencium(
+        "Lr",
+        "Lawrencium",
+        103,
+        262
+        2
+    );
+    static const Element rutherfordium(
+        "Rf",
+        "Rutherfordium",
+        104,
+        261,
+        2
+    );
+    static const Element dubnium(
+        "Db",
+        "Dubnium",
+        105,
+        268,
+        2
+    );
+    static const Element seaborgium(
+        "Sg",
+        "Seaborgium",
+        106,
+        269,
+        2
+    );
+    static const Element bohrium(
+        "Bh",
+        "Bohrium",
+        107,
+        270,
+        2
+    );
+    static const Element hassium(
+        "Hs",
+        "Hassium",
+        108,
+        277,
+        2
+    );
+    static const Element meitnerium(
+        "Mt",
+        "Meitnerium",
+        109,
+        278,
+        2
+    );
+    static const Element darmstadtium(
+        "Ds",
+        "Darmstadtium",
+        110,
+        281,
+        1
+    );
+    static const Element roentgenium(
+        "Rg",
+        "Roentgenium",
+        111,
+        282,
+        1
+    );
+    static const Element copernicium(
+        "Cn",
+        "Copernicium",
+        112,
+        285,
+        2
+    );
+    static const Element nihonium(
+        "Nh",
+        "Nihonium",
+        113,
+        286,
+        3
+    );
+    static const Element flerovium(
+        "Fl",
+        "Flerovium",
+        114,
+        289,
+        4
+    );
+    static const Element moscovium(
+        "Mc",
+        "Moscovium",
+        115,
+        290,
+        5
+    );
+    static const Element livermorium(
+        "Lv",
+        "Livermorium",
+        116,
+        293,
+        6
+    );
+    static const Element tennessine(
+        "Ts",
+        "Tennessine",
+        117,
+        294,
+        7
+    );
+    static const Element oganesson(
+        "Og",
+        "Oganesson",
+        118,
+        294,
+        8
+    );
     const Element& PeriodicTable::get(
         const std::string& symbol
     )
