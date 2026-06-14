@@ -840,6 +840,470 @@ namespace ChemEngine
         {
             return helium;
         }
+        if (symbol == "Li")
+        {
+            return lithium;
+        }
+        if (symbol == "Be")
+        {
+            return beryllium;
+        }
+        if (symbol == "B")
+        {
+            return boron;
+        }
+        if (symbol == "C")
+        {
+            return carbon;
+        }
+        if (symbol == "N")
+        {
+            return nitrogen;
+        }
+        if (symbol == "O")
+        {
+            return oxygen;
+        }
+        if (symbol == "F")
+        {
+            return fluorine;
+        }
+        if (symbol == "Ne")
+        {
+            return neon;
+        }
+        if (symbol == "Na")
+        {
+            return sodium;
+        }
+        if (symbol == "Mg")
+        {
+            return magnesium;
+        }
+        if (symbol == "Al")
+        {
+            return aluminium;
+        }
+        if (symbol == "Si")
+        {
+            return silicon;
+        }
+        if (symbol == "P")
+        {
+            return phosphorus;
+        }
+        if (symbol == "S")
+        {
+            return sulphur;
+        }
+        if (symbol == "Cl")
+        {
+            return chlorine;
+        }
+        if (symbol == "Ar")
+        {
+            return argon;
+        }
+        if (symbol == "K")
+        {
+            return potassium;
+        }
+        if (symbol == "Ca")
+        {
+            return calcium;
+        }
+        if (symbol == "Sc")
+        {
+            return scandium;
+        }
+        if (symbol == "Ti")
+        {
+            return titanium;
+        }
+        if (symbol == "V")
+        {
+            return vanadium;
+        }
+        if (symbol == "Cr")
+        {
+            return chromium;
+        }
+        if (symbol == "Mn")
+        {
+            return manganese;
+        }
+        if (symbol == "Fe")
+        {
+            return iron;
+        }
+        if (symbol == "Co")
+        {
+            return cobalt;
+        }
+        if (symbol == "Ni")
+        {
+            return nickel;
+        }
+        if (symbol == "Cu")
+        {
+            return copper;
+        }
+        if (symbol == "Zn")
+        {
+            return zinc;
+        }
+        if (symbol == "Ga")
+        {
+            return gallium;
+        }
+        if (symbol == "Ge")
+        {
+            return germanium;
+        }
+        if (symbol == "As")
+        {
+            return arsenic;
+        }
+        if (symbol == "Se")
+        {
+            return selenium;
+        }
+        if (symbol == "Br")
+        {
+            return bromine;
+        }
+        if (symbol == "Kr")
+        {
+            return krypton;
+        }
+        if (symbol == "Rb")
+        {
+            return rubidium;
+        }
+        if (symbol == "Sr")
+        {
+            return strontium;
+        }
+        if (symbol == "Y")
+        {
+            return yttrium;
+        }
+        if (symbol == "Zr")
+        {
+            return zirconium;
+        }
+        if (symbol == "Nb")
+        {
+            return niobium;
+        }
+        if (symbol == "Mo")
+        {
+            return molybdenum;
+        }
+        if (symbol == "Tc")
+        {
+            return technetium;
+        }
+        if (symbol == "Ru")
+        {
+            return ruthenium;
+        }
+        if (symbol == "Rh")
+        {
+            return rhodium;
+        }
+        if (symbol == "Pd")
+        {
+            return palladium;
+        }
+        if (symbol == "Ag")
+        {
+            return silver;
+        }
+        if (symbol == "Cd")
+        {
+            return cadmium;
+        }
+        if (symbol == "In")
+        {
+            return indium;
+        }
+        if (symbol == "Sn")
+        {
+            return tin;
+        }
+        if (symbol == "Sb")
+        {
+            return antimony;
+        }
+        if (symbol == "Te")
+        {
+            return tellurium;
+        }
+        if (symbol == "I")
+        {
+            return iodine;
+        }
+        if (symbol == "Xe")
+        {
+            return xenon;
+        }
+        if (symbol == "Cs")
+        {
+            return caesium;
+        }
+        if (symbol == "Ba")
+        {
+            return barium;
+        }
+        if (symbol == "La")
+        {
+            return lanthannum;
+        }
+        if (symbol == "Ce")
+        {
+            return cerium;
+        }
+        if (symbol == "Pr")
+        {
+            return praseodymium;
+        }
+        if (symbol == "Nd")
+        {
+            return neodymium;
+        }
+        if (symbol == "Pm")
+        {
+            return promethium;
+        }
+        if (symbol == "Sm")
+        {
+            return samarium;
+        }
+        if (symbol == "Eu")
+        {
+            return europium;
+        }
+        if (symbol == "Gd")
+        {
+            return gadolinium;
+        }
+        if (symbol == "Tb")
+        {
+            return terbium;
+        }
+        if (symbol == "Dy")
+        {
+            return dysprosium;
+        }
+        if (symbol == "Ho")
+        {
+            return holmium;
+        }
+        if (symbol == "Er")
+        {
+            return erbium;
+        }
+        if (symbol == "Tm")
+        {
+            return thulium;
+        }
+        if (symbol == "Yb")
+        {
+            return ytterbium;
+        }
+        if (symbol == "Lu")
+        {
+            return lutetium;
+        }
+        if (symbol == "Hf")
+        {
+            return hafnium;
+        }
+        if (symbol == "Ta")
+        {
+            return tantalum;
+        }
+        if (symbol == "W")
+        {
+            return tungsten;
+        }
+        if (symbol == "Re")
+        {
+            return rhenium;
+        }
+        if (symbol == "Os")
+        {
+            return osmium;
+        }
+        if (symbol == "Ir")
+        {
+            return iridium;
+        }
+        if (symbol == "Pt")
+        {
+            return platinum;
+        }
+        if (symbol == "Au")
+        {
+            return gold;
+        }
+        if (symbol == "Hg")
+        {
+            return mercury;
+        }
+        if (symbol == "Tl")
+        {
+            return thallium;
+        }
+        if (symbol == "Pb")
+        {
+            return lead;
+        }
+        if (symbol == "Bi")
+        {
+            return bismuth;
+        }
+        if (symbol == "Po")
+        {
+            return polonium;
+        }
+        if (symbol == "At")
+        {
+            return astatine;
+        }
+        if (symbol == "Rn")
+        {
+            return radon;
+        }
+        if (symbol == "Fr")
+        {
+            return francium;
+        }
+        if (symbol == "Ra")
+        {
+            return radium;
+        }
+        if (symbol == "Ac")
+        {
+            return actinium;
+        }
+        if (symbol == "Th")
+        {
+            return thorium;
+        }
+        if (symbol == "Pa")
+        {
+            return protactinum;
+        }
+        if (symbol == "U")
+        {
+            return uranium;
+        }
+        if (symbol == "Np")
+        {
+            return neptunium;
+        }
+        if (symbol == "Pu")
+        {
+            return plutonium;
+        }
+        if (symbol == "Am")
+        {
+            return americium;
+        }
+        if (symbol == "Cm")
+        {
+            return curium;
+        }
+        if (symbol == "Bk")
+        {
+            return berkelium;
+        }
+        if (symbol == "Cf")
+        {
+            return californium;
+        }
+        if (symbol == "Es")
+        {
+            return einsteinium;
+        }
+        if (symbol == "Fm")
+        {
+            return fermium;
+        }
+        if (symbol == "Md")
+        {
+            return mendelevium;
+        }
+        if (symbol == "No")
+        {
+            return nobelium;
+        }
+        if (symbol == "Lr")
+        {
+            return lawrencium;
+        }
+        if (symbol == "Rf")
+        {
+            return rutherfordium;
+        }
+        if (symbol == "Db")
+        {
+            return dubnium;
+        }
+        if (symbol == "Sg")
+        {
+            return seaborgium;
+        }
+        if (symbol == "Bh")
+        {
+            return bohrium;
+        }
+        if (symbol == "Hs")
+        {
+            return hassium;
+        }
+        if (symbol == "Mt")
+        {
+            return meitnerium;
+        }
+        if (symbol == "Ds")
+        {
+            return darmstadtium;
+        }
+        if (symbol == "Rg")
+        {
+            return roentgenium;
+        }
+        if (symbol == "Cn")
+        {
+            return copernicium;
+        }
+        if (symbol == "Nh")
+        {
+            return nihonium;
+        }
+        if (symbol == "Fl")
+        {
+            return flerovium;
+        }
+        if (symbol == "Mc")
+        {
+            return moscovium;
+        }
+        if (symbol == "Lv")
+        {
+            return livermorium;
+        }
+        if (symbol == "Ts")
+        {
+            return tennessine;
+        }
+        if (symbol == "Og")
+        {
+            return oganesson;
+        }
         throw std::runtime_error(
             "Element not found."
         );
