@@ -422,6 +422,62 @@ namespace ChemEngine
         144.242,
         2
     );
+    static const Element promethium(
+        "Pm",
+        "Promethium",
+        61,
+        145,
+        2
+    );
+    static const Element samarium(
+        "Sm",
+        "Samarium",
+        62,
+        150.36,
+        2
+    );
+    static const Element europium(
+        "Eu",
+        "Europium",
+        63,
+        151.964,
+        2
+    );
+    static const Element gadolinium(
+        "Gd",
+        "Gadolinium",
+        64,
+        157.25,
+        2
+    );
+    static const Element terbium(
+        "Tb",
+        "Terbium",
+        65,
+        158.92535,
+        2
+    );
+    static const Element dysprosium(
+        "Dy",
+        "Dysprosium",
+        66,
+        162.5,
+        2
+    );
+    static const Element holmium(
+        "Ho",
+        "Holmium",
+        67,
+        164.93032,
+        2
+    );
+    static const Element erbium(
+        "Er",
+        "Erbium",
+        68,
+        167.259,
+        2
+    );
     const Element& PeriodicTable::get(
         const std::string& symbol
     )
