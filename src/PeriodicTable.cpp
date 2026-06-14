@@ -566,7 +566,7 @@ namespace ChemEngine
         "Tl",
         "Thallium",
         81,
-        204.3833
+        204.3833,
         3
     );
     static const Element lead(
@@ -720,7 +720,7 @@ namespace ChemEngine
         "Lr",
         "Lawrencium",
         103,
-        262
+        262,
         2
     );
     static const Element rutherfordium(
