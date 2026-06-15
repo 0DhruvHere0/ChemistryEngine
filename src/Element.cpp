@@ -6,13 +6,21 @@ namespace ChemEngine
         const std::string& name,
         int atomicNumber,
         double atomicMass,
-        int valenceElectrons
+        int valenceElectrons,
+        int group,
+        int period,
+        State state,
+        Category category
     )
         : m_symbol(symbol),
           m_name(name),
           m_atomicNumber(atomicNumber),
           m_atomicMass(atomicMass),
-          m_valenceElectrons(valenceElectrons)
+          m_valenceElectrons(valenceElectrons),
+          m_group(group),
+          m_period(period),
+          m_state(state),
+          m_category(category)
     {
     }
     const std::string& Element::symbol() const
@@ -34,5 +42,21 @@ namespace ChemEngine
     int Element::valenceElectrons() const
     {
         return m_valenceElectrons;
+    }
+    int Element::group() const
+    {
+        return m_group;
+    }
+    int Element::period() const
+    {
+        return m_period;
+    }
+    State Element::state() const
+    {
+        return m_state;
+    }
+    Category Element::category() const
+    {
+        return m_category;
     }
 }
