@@ -617,7 +617,7 @@ namespace ChemEngine
         State::Solid,
         Category::AlkalineEarthMetal
     ); 
-    static const Element lanthannum(
+    static const Element lanthanum(
         "La",
         "Lanthanum",
         57,
@@ -1529,7 +1529,7 @@ namespace ChemEngine
         }
         if (symbol == "La")
         {
-            return lanthannum;
+            return lanthanum;
         }
         if (symbol == "Ce")
         {
