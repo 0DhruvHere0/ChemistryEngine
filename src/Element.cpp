@@ -10,7 +10,8 @@ namespace ChemEngine
         int group,
         int period,
         State state,
-        Category category
+        Category category,
+        double electronegativity
     )
         : m_symbol(symbol),
           m_name(name),
@@ -20,7 +21,8 @@ namespace ChemEngine
           m_group(group),
           m_period(period),
           m_state(state),
-          m_category(category)
+          m_category(category),
+          m_electronegartivity(electronegativity)
     {
     }
     const std::string& Element::symbol() const
@@ -58,5 +60,9 @@ namespace ChemEngine
     Category Element::category() const
     {
         return m_category;
+    }
+    double Element::electronegativity() const
+    {
+        return m_electronegartivity;
     }
 }

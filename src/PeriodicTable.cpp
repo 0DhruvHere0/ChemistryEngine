@@ -11,7 +11,8 @@ namespace ChemEngine
         1,
         1,
         State::Gas,
-        Category::NonMetal
+        Category::NonMetal,
+        2.20
     );
     static const Element helium(
         "He",
@@ -22,7 +23,8 @@ namespace ChemEngine
         18,
         1,
         State::Gas,
-        Category::NobleGas
+        Category::NobleGas,
+        0.00
     );
     static const Element lithium(
         "Li",
@@ -33,7 +35,8 @@ namespace ChemEngine
         1,
         2,
         State::Solid,
-        Category::AlkaliMetal 
+        Category::AlkaliMetal,
+        0.98
     );
     static const Element beryllium(
         "Be",
@@ -44,7 +47,8 @@ namespace ChemEngine
         2,
         2,
         State::Solid,
-        Category::AlkalineEarthMetal
+        Category::AlkalineEarthMetal,
+        1.57
     );
     static const Element boron(
         "B",
@@ -55,7 +59,8 @@ namespace ChemEngine
         13,
         2,
         State::Solid,
-        Category::NonMetal
+        Category::NonMetal,
+        2.04
     );
     static const Element carbon(
         "C",
@@ -66,7 +71,8 @@ namespace ChemEngine
         14,
         2,
         State::Solid,
-        Category::NonMetal
+        Category::NonMetal,
+        2.55
     );
     static const Element nitrogen(
         "N",
@@ -77,7 +83,8 @@ namespace ChemEngine
         15,
         2,
         State::Gas,
-        Category::NonMetal
+        Category::NonMetal,
+        3.04
     );
     static const Element oxygen(
         "O",
@@ -88,7 +95,8 @@ namespace ChemEngine
         16,
         2,
         State::Gas,
-        Category::NonMetal
+        Category::NonMetal,
+        3.44
     );
     static const Element fluorine(
         "F",
@@ -99,7 +107,8 @@ namespace ChemEngine
         17,
         2,
         State::Gas,
-        Category::Halogen  
+        Category::Halogen,
+        3.98
     );
     static const Element neon(
         "Ne",
@@ -110,7 +119,8 @@ namespace ChemEngine
         18,
         2,
         State::Gas,
-        Category::NobleGas
+        Category::NobleGas,
+        0.00
     );
     static const Element sodium(
         "Na",
@@ -121,7 +131,8 @@ namespace ChemEngine
         1,
         3,
         State::Solid,
-        Category::AlkaliMetal
+        Category::AlkaliMetal,
+        0.93
     );
     static const Element magnesium(
         "Mg",
@@ -132,7 +143,8 @@ namespace ChemEngine
         2,
         3,
         State::Solid,
-        Category::AlkalineEarthMetal
+        Category::AlkalineEarthMetal,
+        1.31
     );
     static const Element aluminium(
         "Al",
@@ -143,7 +155,8 @@ namespace ChemEngine
         13,
         3,
         State::Solid,
-        Category::PostTransitionMetal
+        Category::PostTransitionMetal,
+        1.61
     );
     static const Element silicon(
         "Si",
@@ -154,7 +167,8 @@ namespace ChemEngine
         14,
         3,
         State::Solid,
-        Category::NonMetal
+        Category::NonMetal,
+        1.90
     );
     static const Element phosphorus(
         "P",
@@ -165,7 +179,8 @@ namespace ChemEngine
         15,
         3,
         State::Solid,
-        Category::NonMetal
+        Category::NonMetal,
+        2.19
     );
     static const Element sulphur(
         "S",
@@ -175,7 +190,8 @@ namespace ChemEngine
         6,
         16,
         3,State::Solid,
-        Category::NonMetal
+        Category::NonMetal,
+        2.58
     );
     static const Element chlorine(
         "Cl",
@@ -186,7 +202,8 @@ namespace ChemEngine
         17,
         3,
         State::Gas,
-        Category::Halogen
+        Category::Halogen,
+        3.16
     );
     static const Element argon(
         "Ar",
@@ -197,7 +214,8 @@ namespace ChemEngine
         18,
         3,
         State::Gas,
-        Category::NobleGas
+        Category::NobleGas,
+        0.00
     );
     static const Element potassium(
         "K",
@@ -208,7 +226,8 @@ namespace ChemEngine
         1,
         4,
         State::Solid,
-        Category::AlkaliMetal
+        Category::AlkaliMetal,
+        0.82
     );
     static const Element calcium(
         "Ca",
@@ -219,7 +238,8 @@ namespace ChemEngine
         2,
         4,
         State::Solid,
-        Category::AlkalineEarthMetal
+        Category::AlkalineEarthMetal,
+        1.00
     );
     static const Element scandium(
         "Sc",
@@ -230,7 +250,8 @@ namespace ChemEngine
         3,
         4,
         State::Solid,
-        Category::TransitionMetal
+        Category::TransitionMetal,
+        1.36
     );
     static const Element titanium(
         "Ti",
@@ -241,7 +262,8 @@ namespace ChemEngine
         4,
         4,
         State::Solid,
-        Category::TransitionMetal
+        Category::TransitionMetal,
+        1.54
     );
     static const Element vanadium(
         "V",
@@ -252,7 +274,8 @@ namespace ChemEngine
         5,
         4,
         State::Solid,
-        Category::TransitionMetal
+        Category::TransitionMetal,
+        1.63
     );
     static const Element chromium(
         "Cr",
@@ -263,7 +286,8 @@ namespace ChemEngine
         6,
         4,
         State::Solid,
-        Category::TransitionMetal
+        Category::TransitionMetal,
+        1.66
     );
     static const Element manganese(
         "Mn",
@@ -274,7 +298,8 @@ namespace ChemEngine
         7,
         4,
         State::Solid,
-        Category::TransitionMetal
+        Category::TransitionMetal,
+        1.55
     );
     static const Element iron(
         "Fe",
@@ -285,7 +310,8 @@ namespace ChemEngine
         8,
         4,
         State::Solid,
-        Category::TransitionMetal
+        Category::TransitionMetal,
+        1.83
     );
     static const Element cobalt(
         "Co",
@@ -296,7 +322,8 @@ namespace ChemEngine
         9,
         4,
         State::Solid,
-        Category::TransitionMetal
+        Category::TransitionMetal,
+        1.88
     );
     static const Element nickel(
         "Ni",
@@ -307,7 +334,8 @@ namespace ChemEngine
         10,
         4,
         State::Solid,
-        Category::TransitionMetal
+        Category::TransitionMetal,
+        1.91
     );
     static const Element copper(
         "Cu",
@@ -318,7 +346,8 @@ namespace ChemEngine
         11,
         4,
         State::Solid,
-        Category::TransitionMetal
+        Category::TransitionMetal,
+        1.90
     );
     static const Element zinc(
         "Zn",
@@ -329,7 +358,8 @@ namespace ChemEngine
         12,
         4,
         State::Solid,
-        Category::TransitionMetal
+        Category::TransitionMetal,
+        1.65
     );
     static const Element gallium(
         "Ga",
@@ -340,7 +370,8 @@ namespace ChemEngine
         13,
         4,
         State::Solid,
-        Category::PostTransitionMetal
+        Category::PostTransitionMetal,
+        1.81
     );
     static const Element germanium(
         "Ge",
@@ -351,7 +382,8 @@ namespace ChemEngine
         14,
         4,
         State::Solid,
-        Category::PostTransitionMetal
+        Category::PostTransitionMetal,
+        2.01
     );
     static const Element arsenic(
         "As",
@@ -362,7 +394,8 @@ namespace ChemEngine
         15,
         4,
         State::Solid,
-        Category::NonMetal
+        Category::NonMetal,
+        2.18
     );
     static const Element selenium(
         "Se",
@@ -373,7 +406,8 @@ namespace ChemEngine
         16,
         4,
         State::Solid,
-        Category::NonMetal
+        Category::NonMetal,
+        2.55
     );
     static const Element bromine(
         "Br",
@@ -384,7 +418,8 @@ namespace ChemEngine
         17,
         4,
         State::Liquid,
-        Category::Halogen
+        Category::Halogen,
+        2.96
     );
     static const Element krypton(
         "Kr",
@@ -395,7 +430,8 @@ namespace ChemEngine
         18,
         4,
         State::Gas,
-        Category::NobleGas
+        Category::NobleGas,
+        3.00
     );
     static const Element rubidium(
         "Rb",
@@ -406,7 +442,8 @@ namespace ChemEngine
         1,
         5,
         State::Solid,
-        Category::AlkaliMetal
+        Category::AlkaliMetal,
+        0.82
     );
     static const Element strontium(
         "Sr",
@@ -417,7 +454,8 @@ namespace ChemEngine
         2,
         5,
         State::Solid,
-        Category::AlkalineEarthMetal
+        Category::AlkalineEarthMetal,
+        0.95
     );
     static const Element yttrium(
         "Y",
@@ -428,7 +466,8 @@ namespace ChemEngine
         3,
         5,
         State::Solid,
-        Category::TransitionMetal
+        Category::TransitionMetal,
+        1.22
     );
     static const Element zirconium(
         "Zr",
@@ -439,7 +478,8 @@ namespace ChemEngine
         4,
         5,
         State::Solid,
-        Category::TransitionMetal
+        Category::TransitionMetal,
+        1.33
     );
     static const Element niobium(
         "Nb",
@@ -450,7 +490,8 @@ namespace ChemEngine
         5,
         5,
         State::Solid,
-        Category::TransitionMetal
+        Category::TransitionMetal,
+        1.6
     );
     static const Element molybdenum(
         "Mo",
@@ -461,7 +502,8 @@ namespace ChemEngine
         6,
         5,
         State::Solid,
-        Category::TransitionMetal
+        Category::TransitionMetal,
+        2.16
     );
     static const Element technetium(
         "Tc",
@@ -472,7 +514,8 @@ namespace ChemEngine
         7,
         5,
         State::Solid,
-        Category::TransitionMetal
+        Category::TransitionMetal,
+        1.9
     );
     static const Element ruthenium(
         "Ru",
@@ -483,7 +526,8 @@ namespace ChemEngine
         8,
         5,
         State::Solid,
-        Category::TransitionMetal
+        Category::TransitionMetal,
+        2.2
     );
     static const Element rhodium(
         "Rh",
@@ -494,7 +538,8 @@ namespace ChemEngine
         9,
         5,
         State::Solid,
-        Category::TransitionMetal
+        Category::TransitionMetal,
+        2.28
     );
     static const Element palladium(
         "Pd",
@@ -505,7 +550,8 @@ namespace ChemEngine
         10,
         5,
         State::Solid,
-        Category::TransitionMetal
+        Category::TransitionMetal,
+        2.20
     );
     static const Element silver(
         "Ag",
@@ -516,7 +562,8 @@ namespace ChemEngine
         11,
         5,
         State::Solid,
-        Category::TransitionMetal
+        Category::TransitionMetal,
+        1.93
     );
     static const Element cadmium(
         "Cd",
@@ -527,7 +574,8 @@ namespace ChemEngine
         12,
         5,
         State::Solid,
-        Category::TransitionMetal
+        Category::TransitionMetal,
+        1.69
     );
     static const Element indium(
         "In",
@@ -538,7 +586,8 @@ namespace ChemEngine
         13,
         5,
         State::Solid,
-        Category::PostTransitionMetal
+        Category::PostTransitionMetal,
+        1.78
     );
     static const Element tin(
         "Sn",
@@ -549,7 +598,8 @@ namespace ChemEngine
         14,
         5,
         State::Solid,
-        Category::PostTransitionMetal
+        Category::PostTransitionMetal,
+        1.96
     );
     static const Element antimony(
         "Sb",
@@ -560,7 +610,8 @@ namespace ChemEngine
         15,
         5,
         State::Solid,
-        Category::PostTransitionMetal
+        Category::PostTransitionMetal,
+        2.05
     );
     static const Element tellurium(
         "Te",
@@ -571,7 +622,8 @@ namespace ChemEngine
         16,
         5,
         State::Solid,
-        Category::NonMetal
+        Category::NonMetal,
+        2.1
     );
     static const Element iodine(
         "I",
@@ -582,7 +634,8 @@ namespace ChemEngine
         17,
         5,
         State::Solid,
-        Category::Halogen
+        Category::Halogen,
+        2.66
     );
     static const Element xenon(
         "Xe",
@@ -593,7 +646,8 @@ namespace ChemEngine
         18,
         5,
         State::Gas,
-        Category::NobleGas
+        Category::NobleGas,
+        2.6
     );
     static const Element caesium(
         "Cs",
@@ -604,7 +658,8 @@ namespace ChemEngine
         1,
         6,
         State::Solid,
-        Category::AlkaliMetal
+        Category::AlkaliMetal,
+        0.79
     );
     static const Element barium(
         "Ba",
@@ -615,7 +670,8 @@ namespace ChemEngine
         2,
         6,
         State::Solid,
-        Category::AlkalineEarthMetal
+        Category::AlkalineEarthMetal,
+        0.89
     ); 
     static const Element lanthanum(
         "La",
@@ -626,7 +682,8 @@ namespace ChemEngine
         3,
         6,
         State::Solid,
-        Category::Lanthanide
+        Category::Lanthanide,
+        1.10
     );
     static const Element cerium(
         "Ce",
@@ -637,7 +694,8 @@ namespace ChemEngine
         0,
         6,
         State::Solid,
-        Category::Lanthanide
+        Category::Lanthanide,
+        1.12
     );
     static const Element praseodymium(
         "Pr",
@@ -648,7 +706,8 @@ namespace ChemEngine
         0,
         6,
         State::Solid,
-        Category::Lanthanide
+        Category::Lanthanide,
+        1.13
     );
     static const Element neodymium(
         "Nd",
@@ -659,7 +718,8 @@ namespace ChemEngine
         0,
         6,
         State::Solid,
-        Category::Lanthanide
+        Category::Lanthanide,
+        1.14
     );
     static const Element promethium(
         "Pm",
@@ -670,7 +730,8 @@ namespace ChemEngine
         0,
         6,
         State::Solid,
-        Category::Lanthanide
+        Category::Lanthanide,
+        1.13
     );
     static const Element samarium(
         "Sm",
@@ -681,7 +742,8 @@ namespace ChemEngine
         0,
         6,
         State::Solid,
-        Category::Lanthanide
+        Category::Lanthanide,
+        1.17
     );
     static const Element europium(
         "Eu",
@@ -692,7 +754,8 @@ namespace ChemEngine
         0,
         6,
         State::Solid,
-        Category::Lanthanide
+        Category::Lanthanide,
+        1.20
     );
     static const Element gadolinium(
         "Gd",
@@ -703,7 +766,8 @@ namespace ChemEngine
         0,
         6,
         State::Solid,
-        Category::Lanthanide
+        Category::Lanthanide,
+        1.20
     );
     static const Element terbium(
         "Tb",
@@ -714,7 +778,8 @@ namespace ChemEngine
         0,
         6,
         State::Solid,
-        Category::Lanthanide
+        Category::Lanthanide,
+        1.1
     );
     static const Element dysprosium(
         "Dy",
@@ -725,7 +790,8 @@ namespace ChemEngine
         0,
         6,
         State::Solid,
-        Category::Lanthanide
+        Category::Lanthanide,
+        1.22
     );
     static const Element holmium(
         "Ho",
@@ -736,7 +802,8 @@ namespace ChemEngine
         0,
         6,
         State::Solid,
-        Category::Lanthanide
+        Category::Lanthanide,
+        1.23
     );
     static const Element erbium(
         "Er",
@@ -747,7 +814,8 @@ namespace ChemEngine
         0,
         6,
         State::Solid,
-        Category::Lanthanide
+        Category::Lanthanide,
+        1.24
     );
     static const Element thulium(
         "Tm",
@@ -758,7 +826,8 @@ namespace ChemEngine
         0,
         6,
         State::Solid,
-        Category::Lanthanide
+        Category::Lanthanide,
+        1.25
     );
     static const Element ytterbium(
         "Yb",
@@ -769,7 +838,8 @@ namespace ChemEngine
         0,
         6,
         State::Solid,
-        Category::Lanthanide
+        Category::Lanthanide,
+        1.10
     );
     static const Element lutetium(
         "Lu",
@@ -780,7 +850,8 @@ namespace ChemEngine
         0,
         6,
         State::Solid,
-        Category::Lanthanide
+        Category::Lanthanide,
+        1.27
     );
     static const Element hafnium(
         "Hf",
@@ -791,7 +862,8 @@ namespace ChemEngine
         4,
         6,
         State::Solid,
-        Category::TransitionMetal
+        Category::TransitionMetal,
+        1.3
     );
     static const Element tantalum(
         "Ta",
@@ -802,7 +874,8 @@ namespace ChemEngine
         5,
         6,
         State::Solid,
-        Category::TransitionMetal
+        Category::TransitionMetal,
+        1.5
     );
     static const Element tungsten(
         "W",
@@ -813,7 +886,8 @@ namespace ChemEngine
         6,
         6,
         State::Solid,
-        Category::TransitionMetal
+        Category::TransitionMetal,
+        2.36
     );
     static const Element rhenium(
         "Re",
@@ -824,7 +898,8 @@ namespace ChemEngine
         7,
         6,
         State::Solid,
-        Category::TransitionMetal
+        Category::TransitionMetal,
+        1.9
     );
     static const Element osmium(
         "Os",
@@ -835,7 +910,8 @@ namespace ChemEngine
         8,
         6,
         State::Solid,
-        Category::TransitionMetal
+        Category::TransitionMetal,
+        2.2
     );
     static const Element iridium(
         "Ir",
@@ -846,7 +922,8 @@ namespace ChemEngine
         9,
         6,
         State::Solid,
-        Category::TransitionMetal
+        Category::TransitionMetal,
+        2.20
     );
     static const Element platinum(
         "Pt",
@@ -857,7 +934,8 @@ namespace ChemEngine
         10,
         6,
         State::Solid,
-        Category::TransitionMetal
+        Category::TransitionMetal,
+        2.28
     );
     static const Element gold(
         "Au",
@@ -868,7 +946,8 @@ namespace ChemEngine
         11,
         6,
         State::Solid,
-        Category::TransitionMetal
+        Category::TransitionMetal,
+        2.54
     );
     static const Element mercury(
         "Hg",
@@ -879,7 +958,8 @@ namespace ChemEngine
         12,
         6,
         State::Liquid,
-        Category::TransitionMetal
+        Category::TransitionMetal,
+        2.00
     );
     static const Element thallium(
         "Tl",
@@ -890,7 +970,8 @@ namespace ChemEngine
         13,
         6,
         State::Solid,
-        Category::PostTransitionMetal
+        Category::PostTransitionMetal,
+        1.62
     );
     static const Element lead(
         "Pb",
@@ -901,7 +982,8 @@ namespace ChemEngine
         14,
         6,
         State::Solid,
-        Category::PostTransitionMetal
+        Category::PostTransitionMetal,
+        2.33
     );
     static const Element bismuth(
         "Bi",
@@ -912,7 +994,8 @@ namespace ChemEngine
         15,
         6,
         State::Solid,
-        Category::PostTransitionMetal
+        Category::PostTransitionMetal,
+        2.02
     );
     static const Element polonium(
         "Po",
@@ -923,7 +1006,8 @@ namespace ChemEngine
         16,
         6,
         State::Solid,
-        Category::PostTransitionMetal
+        Category::PostTransitionMetal,
+        2.0
     );
     static const Element astatine(
         "At",
@@ -934,7 +1018,8 @@ namespace ChemEngine
         17,
         6,
         State::Solid,
-        Category::Halogen
+        Category::Halogen,
+        2.2
     );
     static const Element radon(
         "Rn",
@@ -945,7 +1030,8 @@ namespace ChemEngine
         18,
         6,
         State::Gas,
-        Category::NobleGas
+        Category::NobleGas,
+        2.20
     );
     static const Element francium(
         "Fr",
@@ -956,7 +1042,8 @@ namespace ChemEngine
         1,
         7,
         State::Solid,
-        Category::AlkaliMetal
+        Category::AlkaliMetal,
+        0.70
     );
     static const Element radium(
         "Ra",
@@ -967,7 +1054,8 @@ namespace ChemEngine
         2,
         7,
         State::Solid,
-        Category::AlkalineEarthMetal
+        Category::AlkalineEarthMetal,
+        0.9
     );
     static const Element actinium(
         "Ac",
@@ -978,7 +1066,8 @@ namespace ChemEngine
         3,
         7,
         State::Solid,
-        Category::Actinide
+        Category::Actinide,
+        1.1
     );
     static const Element thorium(
         "Th",
@@ -989,7 +1078,8 @@ namespace ChemEngine
         0,
         7,
         State::Solid,
-        Category::Actinide
+        Category::Actinide,
+        1.3
     );
     static const Element protactinum(
         "Pa",
@@ -1000,7 +1090,8 @@ namespace ChemEngine
         0,
         7,
         State::Solid,
-        Category::Actinide
+        Category::Actinide,
+        1.5
     );
     static const Element uranium(
         "U",
@@ -1011,7 +1102,8 @@ namespace ChemEngine
         0,
         7,
         State::Solid,
-        Category::Actinide
+        Category::Actinide,
+        1.38
     );
     static const Element neptunium(
         "Np",
@@ -1022,7 +1114,8 @@ namespace ChemEngine
         0,
         7,
         State::Solid,
-        Category::Actinide
+        Category::Actinide,
+        1.36
     );
     static const Element plutonium(
         "Pu",
@@ -1033,7 +1126,8 @@ namespace ChemEngine
         0,
         7,
         State::Solid,
-        Category::Actinide
+        Category::Actinide,
+        1.28
     );
     static const Element americium(
         "Am",
@@ -1044,7 +1138,8 @@ namespace ChemEngine
         0,
         7,
         State::Solid,
-        Category::Actinide
+        Category::Actinide,
+        1.3
     );
     static const Element curium(
         "Cm",
@@ -1055,7 +1150,8 @@ namespace ChemEngine
         0,
         7,
         State::Solid,
-        Category::Actinide
+        Category::Actinide,
+        1.3
     );
     static const Element berkelium(
         "Bk",
@@ -1066,7 +1162,8 @@ namespace ChemEngine
         0,
         7,
         State::Solid,
-        Category::Actinide
+        Category::Actinide,
+        1.3
     );
     static const Element californium(
         "Cf",
@@ -1077,7 +1174,8 @@ namespace ChemEngine
         0,
         7,
         State::Solid,
-        Category::Actinide
+        Category::Actinide,
+        1.3
     );
     static const Element einsteinium(
         "Es",
@@ -1088,7 +1186,8 @@ namespace ChemEngine
         0,
         7,
         State::Solid,
-        Category::Actinide
+        Category::Actinide,
+        1.3
     );
     static const Element fermium(
         "Fm",
@@ -1099,7 +1198,8 @@ namespace ChemEngine
         0,
         7,
         State::Solid,
-        Category::Actinide
+        Category::Actinide,
+        1.3
     );
     static const Element mendelevium(
         "Md",
@@ -1110,7 +1210,8 @@ namespace ChemEngine
         0,
         7,
         State::Solid,
-        Category::Actinide
+        Category::Actinide,
+        1.3
     );
     static const Element nobelium(
         "No",
@@ -1121,7 +1222,8 @@ namespace ChemEngine
         0,
         7,
         State::Solid,
-        Category::Actinide
+        Category::Actinide,
+        1.3
     );
     static const Element lawrencium(
         "Lr",
@@ -1132,7 +1234,8 @@ namespace ChemEngine
         0,
         7,
         State::Solid,
-        Category::Actinide
+        Category::Actinide,
+        1.30
     );
     static const Element rutherfordium(
         "Rf",
@@ -1143,7 +1246,8 @@ namespace ChemEngine
         4,
         7,
         State::Solid,
-        Category::TransitionMetal
+        Category::TransitionMetal,
+        0.00
     );
     static const Element dubnium(
         "Db",
@@ -1154,7 +1258,8 @@ namespace ChemEngine
         5,
         7,
         State::Solid,
-        Category::TransitionMetal
+        Category::TransitionMetal,
+        0.00
     );
     static const Element seaborgium(
         "Sg",
@@ -1165,7 +1270,8 @@ namespace ChemEngine
         6,
         7,
         State::Solid,
-        Category::TransitionMetal
+        Category::TransitionMetal,
+        0.00
     );
     static const Element bohrium(
         "Bh",
@@ -1176,7 +1282,8 @@ namespace ChemEngine
         7,
         7,
         State::Solid,
-        Category::TransitionMetal
+        Category::TransitionMetal,
+        0.00
     );
     static const Element hassium(
         "Hs",
@@ -1187,7 +1294,8 @@ namespace ChemEngine
         8,
         7,
         State::Solid,
-        Category::TransitionMetal
+        Category::TransitionMetal,
+        0.00
     );
     static const Element meitnerium(
         "Mt",
@@ -1198,7 +1306,8 @@ namespace ChemEngine
         9,
         7,
         State::Solid,
-        Category::TransitionMetal
+        Category::TransitionMetal,
+        0.00
     );
     static const Element darmstadtium(
         "Ds",
@@ -1209,7 +1318,8 @@ namespace ChemEngine
         10,
         7,
         State::Solid,
-        Category::TransitionMetal
+        Category::TransitionMetal,
+        0.00
     );
     static const Element roentgenium(
         "Rg",
@@ -1220,7 +1330,8 @@ namespace ChemEngine
         11,
         7,
         State::Solid,
-        Category::TransitionMetal
+        Category::TransitionMetal,
+        0.00
     );
     static const Element copernicium(
         "Cn",
@@ -1231,7 +1342,8 @@ namespace ChemEngine
         12,
         7,
         State::Solid,
-        Category::TransitionMetal
+        Category::TransitionMetal,
+        0.00
     );
     static const Element nihonium(
         "Nh",
@@ -1242,7 +1354,8 @@ namespace ChemEngine
         13,
         7,
         State::Solid,
-        Category::PostTransitionMetal
+        Category::PostTransitionMetal,
+        0.00
     );
     static const Element flerovium(
         "Fl",
@@ -1253,7 +1366,8 @@ namespace ChemEngine
         14,
         7,
         State::Solid,
-        Category::PostTransitionMetal
+        Category::PostTransitionMetal,
+        0.00
     );
     static const Element moscovium(
         "Mc",
@@ -1264,7 +1378,8 @@ namespace ChemEngine
         15,
         7,
         State::Solid,
-        Category::PostTransitionMetal
+        Category::PostTransitionMetal,
+        0.00
     );
     static const Element livermorium(
         "Lv",
@@ -1275,7 +1390,8 @@ namespace ChemEngine
         16,
         7,
         State::Solid,
-        Category::PostTransitionMetal
+        Category::PostTransitionMetal,
+        0.00
     );
     static const Element tennessine(
         "Ts",
@@ -1286,7 +1402,8 @@ namespace ChemEngine
         17,
         7,
         State::Solid,
-        Category::Halogen
+        Category::Halogen,
+        0.00
     );
     static const Element oganesson(
         "Og",
@@ -1297,7 +1414,8 @@ namespace ChemEngine
         18,
         7,
         State::Gas,
-        Category::NobleGas
+        Category::NobleGas,
+        0.00
     );
     const Element& PeriodicTable::get(
         const std::string& symbol
