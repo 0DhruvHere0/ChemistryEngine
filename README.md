@@ -1,8 +1,9 @@
-Current Scope:
+## Current Scope
 
+```text
 ChemEngine
 │
-├── Phase 1 : Foundation (Completed)
+├── Phase 1: Foundation (Completed)
 │   ├── Element
 │   ├── PeriodicTable
 │   ├── OxidationStates
@@ -11,70 +12,66 @@ ChemEngine
 │   ├── Molecule
 │   └── Testing
 │
-├── Phase 2 : Formula Parser
-│   │
+├── Phase 2: Formula Parser
 │   ├── Formula Tokenizer
-│   │     H2O
-│   │     NH3
-│   │     CO2
+│   │   ├── H2O
+│   │   ├── NH3
+│   │   └── CO2
 │   │
 │   ├── Parentheses Parser
-│   │     Ca(OH)2
-│   │     Al2(SO4)3
+│   │   ├── Ca(OH)2
+│   │   └── Al2(SO4)3
 │   │
 │   ├── Nested Parentheses
-│   │     K4[Fe(CN)6]   
+│   │   └── K4[Fe(CN)6]
 │   │
 │   ├── Formula Object
-│   │     element → count
+│   │   └── Element → Count Mapping
 │   │
 │   ├── Formula Validation
-│   │
 │   └── Tests
 │
-└── Phase 3 : Reaction Engine
-    │
+└── Phase 3: Reaction Engine
     ├── Reaction Parser
-    │     H2 + O2 -> H2O
+    │   └── H2 + O2 → H2O
     │
     ├── Reactant Parser
-    │
     ├── Product Parser
-    │
     ├── Reaction Database
     │
     ├── Rule Engine
-    │     synthesis
-    │     decomposition
-    │     displacement
-    │     combustion
+    │   ├── Synthesis
+    │   ├── Decomposition
+    │   ├── Single Displacement
+    │   └── Combustion
     │
     ├── Condition Checking
-    │     catalyst
-    │     temperature
-    │     pressure
+    │   ├── Catalyst
+    │   ├── Temperature
+    │   └── Pressure
     │
     ├── Product Prediction
-    │
-    ├── Equation Balancing (optional)
-    │
+    ├── Equation Balancing (Optional)
     ├── Validation
-    │
     └── Tests
+```
 
+---
 
-Future Scopes:
+# Future Scope (v2)
 
+```text
 ChemEngine v2
 │
-├── Molecular Mass
-├── Empirical Formula
-├── Percent Composition
-├── Lewis Structures
+├── Molecular Mass Calculator
+├── Empirical Formula Generator
+├── Percent Composition Calculator
+├── Lewis Structure Generator
 ├── SMILES Support
-├── Geometry (VSEPR)
+├── Molecular Geometry (VSEPR)
 ├── Thermodynamics
-├── Kinetics
+├── Chemical Kinetics
 ├── Organic Reaction Engine
-├── Spectroscopy
-└── ML-based Prediction
+├── Spectroscopy Support
+└── Machine Learning-Based Reaction Prediction
+```
