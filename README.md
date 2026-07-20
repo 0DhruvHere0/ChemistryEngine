@@ -63,15 +63,18 @@ ChemEngine
 ```text
 ChemEngine v2
 │
+├── Gas Laws Calculator
 ├── Molecular Mass Calculator
 ├── Empirical Formula Generator
 ├── Percent Composition Calculator
 ├── Lewis Structure Generator
-├── SMILES Support
 ├── Molecular Geometry (VSEPR)
+├── Equation Balancer
+├── Stoichiometry Calculator
+├── Oxidation Number Calculator
+├── Solubility Checker
+├── Acid/Base Classifier
+├── Electron Configuration Generator
 ├── Thermodynamics
-├── Chemical Kinetics
-├── Organic Reaction Engine
-├── Spectroscopy Support
-└── Machine Learning-Based Reaction Prediction
+└── Chemical Kinetics
 ```
