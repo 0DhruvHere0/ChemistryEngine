@@ -1,24 +1,35 @@
-#include <ChemEngine/Atom.hpp>
+#include "ChemEngine/Atom.hpp"
+#include "ChemEngine/PeriodicTable.hpp"
 #include <stdexcept>
 namespace ChemEngine
 {
-Atom::Atom(
-    std::size_t index,
-    int atomicNumber,
-    int formalCharge
-)
-    : m_index(index),
-      m_atomicNumber(atomicNumber),
-      m_formalCharge(formalCharge)
+    Atom::Atom(
+        std::size_t index,
+        int atomicNumber,
+        int formalCharge
+    )
+        : m_index(index),
+        m_atomicNumber(atomicNumber),
+        m_formalCharge(formalCharge)
     {
-    if (atomicNumber < 1 || atomicNumber > 118)
-    {
-        throw std::out_of_range("Invalid atomic number.");
+        if (atomicNumber < 1 || atomicNumber > 118)
+        {
+            throw std::out_of_range("Invalid atomic number.");
+        }
+        if (formalCharge < -8 || formalCharge > 8)
+        {
+            throw std::invalid_argument("Invalid formal charge.");
+        }
     }
-    if (formalCharge < -8 || formalCharge > 8)
+    Atom::Atom(
+        std::size_t index,
+        const std::string& symbol,
+        int formalCharge
+    )
+        : Atom(index,
+           PeriodicTable::get(symbol).atomicNumber(),
+           formalCharge)
     {
-        throw std::invalid_argument("Invalid formal charge.");
-    }
     }
     std::size_t Atom::index() const
     {
@@ -34,6 +45,10 @@ Atom::Atom(
     }
     void Atom::setFormalCharge(int formalCharge)
     {
-        m_formalCharge= formalCharge;
+        if (formalCharge < -8 || formalCharge > 8)
+        {
+            throw std::invalid_argument("Invalid formal charge.");
+        }
+        m_formalCharge = formalCharge;
     }
 }

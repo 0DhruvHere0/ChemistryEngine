@@ -1,5 +1,6 @@
 #pragma once
 #include <cstddef>
+#include <string>
 namespace ChemEngine
 {
     class Atom
@@ -12,6 +13,10 @@ namespace ChemEngine
         Atom(
             std::size_t index,
             int atomicNumber,
+            int formalCharge = 0
+        );
+        Atom(std::size_t index,
+            const std::string& symbol,
             int formalCharge = 0
         );
         std::size_t index() const;
