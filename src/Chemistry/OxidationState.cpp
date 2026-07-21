@@ -1,4 +1,4 @@
-#include <ChemEngine/OxidationState.hpp>
+#include <ChemEngine/Chemistry/OxidationState.hpp>
 #include <stdexcept>
 namespace ChemEngine
 {

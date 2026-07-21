@@ -1,4 +1,4 @@
-#include "ChemEngine/Molecule.hpp"
+#include "ChemEngine/Chemistry/Molecule.hpp"
 namespace ChemEngine
 {
     Molecule::Molecule() = default;

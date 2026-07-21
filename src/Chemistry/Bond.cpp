@@ -1,4 +1,4 @@
-#include "ChemEngine/Bond.hpp"
+#include "ChemEngine/Chemistry/Bond.hpp"
 namespace ChemEngine
 {
     Bond::Bond(std::size_t atom1,

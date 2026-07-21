@@ -1,5 +1,5 @@
-#include "ChemEngine/Atom.hpp"
-#include "ChemEngine/PeriodicTable.hpp"
+#include "ChemEngine/Chemistry/Atom.hpp"
+#include "ChemEngine/Chemistry/PeriodicTable.hpp"
 #include <stdexcept>
 namespace ChemEngine
 {
