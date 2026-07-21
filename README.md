@@ -3,7 +3,7 @@
 ```text
 ChemEngine
 │
-├── Phase 1: Foundation (Completed)
+├── Phase 1 (Chemistry): Foundation (Completed)
 │   ├── Element
 │   ├── PeriodicTable
 │   ├── OxidationStates
@@ -12,7 +12,7 @@ ChemEngine
 │   ├── Molecule
 │   └── Testing
 │
-├── Phase 2: Formula Parser
+├── Phase 2 (Parser): Formula Parser
 │   ├── Formula Tokenizer
 │   │   ├── H2O
 │   │   ├── NH3
@@ -31,7 +31,7 @@ ChemEngine
 │   ├── Formula Validation
 │   └── Tests
 │
-└── Phase 3: Reaction Engine
+└── Phase 3 (Reactions): Reaction Engine
     ├── Reaction Parser
     │   └── H2 + O2 → H2O
     │
