@@ -1,8 +1,8 @@
 #pragma once
 #include <vector>
 #include <initializer_list>
-#include "ChemEngine/Atom.hpp"
-#include "ChemEngine/Bond.hpp"
+#include "ChemEngine/Chemistry/Atom.hpp"
+#include "ChemEngine/Chemistry/Bond.hpp"
 namespace ChemEngine
 {
     class Molecule

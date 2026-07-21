@@ -1,5 +1,5 @@
 #include <iostream>
-#include <ChemEngine/Molecule.hpp>
+#include <ChemEngine/Chemistry/Molecule.hpp>
 using namespace ChemEngine;
 void printMolecule(const Molecule& molecule)
 {

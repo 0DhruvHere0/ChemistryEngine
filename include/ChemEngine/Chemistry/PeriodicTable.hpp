@@ -1,6 +1,6 @@
 #pragma once
 #include <string>
-#include <ChemEngine/Element.hpp>
+#include <ChemEngine/Chemistry/Element.hpp>
 namespace ChemEngine
 {
     class PeriodicTable

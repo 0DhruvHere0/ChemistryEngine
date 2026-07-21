@@ -1,6 +1,6 @@
 #include <iostream>
 #include <vector>
-#include <ChemEngine/PeriodicTable.hpp>
+#include <ChemEngine/Chemistry/PeriodicTable.hpp>
 using namespace ChemEngine;
 int main()
 {

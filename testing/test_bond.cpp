@@ -1,5 +1,5 @@
 #include <iostream>
-#include <ChemEngine/Bond.hpp>
+#include <ChemEngine/Chemistry/Bond.hpp>
 using namespace ChemEngine;
 void printBond(const Bond& bond)
 {

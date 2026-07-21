@@ -1,7 +1,7 @@
 #pragma once
 #include <string>
 #include <vector>
-#include <ChemEngine/Element.hpp>
+#include <ChemEngine/Chemistry/Element.hpp>
 namespace ChemEngine{
     class OxidationStates{
         public:

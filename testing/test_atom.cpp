@@ -1,5 +1,5 @@
 #include <iostream>
-#include <ChemEngine/Atom.hpp>
+#include <ChemEngine/Chemistry/Atom.hpp>
 using namespace ChemEngine;
 void printAtom(const Atom& atom)
 {
